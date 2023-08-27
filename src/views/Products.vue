@@ -94,10 +94,10 @@ export default {
   data() {
     return {
       pesan: ['Hai,Apakah ada yang bisa dibantu?'],
-      logo: '../assets/img/logo.png',
       products: products,
     };
   },
+
   components: {
     NavbarComponent,
     FooterComponent,

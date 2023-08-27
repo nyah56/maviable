@@ -3,8 +3,8 @@
     class="flex flex-col min-w-0 min-h-full lg:w-full w-5/6 break-words bg-white shadow-lg rounded-lg mb-8"
   >
     <img
+      :src="imageSrc"
       alt="..."
-      :src="product.src"
       class="w-full align-middle rounded-t-lg h-full sm:h-48 object-cover"
     />
     <blockquote class="relative p-8 mb-4">
@@ -21,6 +21,13 @@ export default {
   name: 'Product',
   props: {
     product: Object,
+  },
+
+  computed: {
+    imageSrc() {
+      return new URL(`../assets/img/${this.product.src}.jpeg`, import.meta.url)
+        .href;
+    },
   },
 };
 </script>
