@@ -28,7 +28,7 @@
                   </div>
                   <h6 class="text-xl font-semibold">Sehat</h6>
                   <p class="mt-2 mb-4 text-gray-600">
-                    Dibuat dengan bahan alami
+                    Dibuat dengan bahan alami dan kualitasnya selalu dijaga
                   </p>
                 </div>
               </div>
