@@ -9,7 +9,7 @@
     />
     <blockquote class="relative p-8 mb-4">
       <h4 class="text-xl font-bold text-gray-600">{{ product.name }}</h4>
-      <p class="text-md font-light mt-2 text-gray-600">
+      <p class="text-md font-light mt-2 text-gray-600 text-justify">
         {{ product.description }}
       </p>
     </blockquote>
