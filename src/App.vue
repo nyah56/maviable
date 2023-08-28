@@ -54,4 +54,14 @@ a.router-link-exact-active i {
 .route-leave-active {
   transition: all 0.3s ease-in;
 }
+@media only screen and (max-width: 640px) {
+  .route-enter-from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  .route-leave-to {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
 </style>
