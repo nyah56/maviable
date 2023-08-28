@@ -47,10 +47,8 @@
               >
             </div>
           </div>
-          <div class="w-1/2 lg:text-right text-white">
-            <span class="block uppercase text-sm font-semibold mb-4"
-              >Halaman</span
-            >
+          <div class="w-1/2 lg:text-right text-white lg:pr-2">
+            <span class="block text-sm font-semibold mb-4">Halaman</span>
             <ul class="list-unstyled">
               <li>
                 <router-link :to="{ name: 'home' }">Home</router-link>

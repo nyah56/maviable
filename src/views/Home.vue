@@ -51,8 +51,8 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap items-center mt-24">
-            <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+          <div class="grid lg:grid-cols-6 grid-cols-1 gap-4 mt-24">
+            <div class="w-full lg:px-0 px-4 col-start-1 col-end-3">
               <div
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
               >
@@ -73,18 +73,18 @@
 
               <router-link
                 :to="{ name: 'products' }"
-                class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
+                class="text-lg font-light leading-relaxed mt-4 text-red-400"
                 >Lihat Produk...</router-link
               >
             </div>
-            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            <div class="'w-full mt-4' lg:mx-auto lg:col-end-7 lg:col-span-2">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg"
               >
                 <img
                   alt="..."
                   src="../assets/img/hero.jpeg"
-                  class="w-full align-middle rounded-t-lg h-full sm:h-48 object-cover"
+                  class="w-full align-middle rounded-t-lg  lg:h-56 h-48 object-cover"
                 />
                 <blockquote class="relative p-8 mb-4">
                   <svg
@@ -120,5 +120,6 @@
 
 export default {
   name: 'home',
+  
 };
 </script>
