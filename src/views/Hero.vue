@@ -8,6 +8,7 @@
       style="
         background-image: url('https://github.com/nyah56/jjjj/blob/main/bg.jpg?raw=true');
       "
+      rel="preload"
     >
       <span
         id="blackOverlay"

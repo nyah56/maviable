@@ -6,6 +6,7 @@
       :src="imageSrc"
       alt="..."
       class="w-full align-middle rounded-t-lg h-full sm:h-48 object-cover"
+      rel="preload"
     />
     <blockquote class="relative p-8 mb-4">
       <h4 class="text-xl font-bold text-gray-600">{{ product.name }}</h4>
